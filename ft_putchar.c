@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarredon <alonsoamadorarredondo@gmail.c    +#+  +:+       +#+        */
+/*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/12 01:14:06 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/12 01:14:06 by aarredon         ###   ########.fr       */
+/*   Created: 2025/07/12 01:17:03 by aarredon          #+#    #+#             */
+/*   Updated: 2025/07/12 01:17:03 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
