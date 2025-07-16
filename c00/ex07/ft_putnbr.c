@@ -6,13 +6,13 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/14 18:57:57 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/16 19:10:29 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/16 21:05:08 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-char	reverse(char *num, int i, int nb)
+void	reverse(char *num, int i, int nb)
 {
 	int		start;
 	int		end;

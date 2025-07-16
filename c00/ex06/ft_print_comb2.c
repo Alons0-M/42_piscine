@@ -6,7 +6,7 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/14 18:40:53 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/16 19:12:42 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/16 21:02:34 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,5 +56,4 @@ void	ft_print_comb2(void)
 	char	c4;
 
 	loop_comb2_aux(c1, c2, c3, c4);
-	write(1, "\n", 1);
 }

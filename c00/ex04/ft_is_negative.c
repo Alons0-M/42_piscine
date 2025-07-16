@@ -6,7 +6,7 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/12 19:13:21 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/16 19:13:39 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/16 21:01:39 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,9 @@ void	ft_is_negative(int n)
 	if (n < 0)
 	{
 		write(1, "N", 1);
-		write(1, "\n", 1);
 	}
 	else
 	{
 		write(1, "P", 1);
-		write(1, "\n", 1);
 	}
 }

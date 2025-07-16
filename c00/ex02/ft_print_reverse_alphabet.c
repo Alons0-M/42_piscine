@@ -6,7 +6,7 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/12 18:46:48 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/16 19:15:53 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/16 20:59:53 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,5 +22,4 @@ void	ft_print_reverse_alphabet(void)
 		write(1, &c, 1);
 		c--;
 	}
-	write(1, "\n", 1);
 }
