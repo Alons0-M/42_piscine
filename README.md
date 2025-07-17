@@ -1,3 +1,4 @@
+## Git
 git branch -m main
 git remote add "name" "ssh"
 git push -u "name" "branch"
@@ -7,7 +8,21 @@ git clone first later git pull
 git checkout "branch"
 git merge "branch"
 
-## NO sé usar aún
+### NO sé usar aún
 git reset --soft HEAD~1  //`HEAD~1` Retrocede 1 commit desde donde estás. `--soft` Los cambios del commit deshecho quedan en staging.
 git stash -u //Save without commit
 git stash pop //load that save
+
+## Shell
+alias ccc='cc -c -Wall -Wextra -Werror'
+
+## Vim
+set number
+set mouse =a
+//set relative number
+
+'j' bajar 'k' subir
+/palabra a buscar n y N
+'u' deshacer ':redo' rehacer 
+'dd' eliminar linea 
+'y' copiar usar con 'v' seleccionar o 'yw' 'yy' linea y$ desde cursor hasta final línea

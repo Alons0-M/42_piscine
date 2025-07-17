@@ -6,7 +6,7 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/14 18:40:53 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/17 01:59:23 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/17 11:37:15 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,10 +34,10 @@ void	loop_comb2_aux(char c1, char c2, char c3, char c4)
 			c3 = c1;
 			while (c3 <= '9')
 			{
-				if (c1 == c3) 
-					c4 = c2 + 1;
+				if (c1 < c3) 
+					c4 = '0';
 				else 
-					c4 = c2; //falta que vuelva al 0 por ejemplo hace 68 99, 69 79, 69, 89, 69 99, 70 71
+					c4 = c2 + 1; //falta que vuelva al 0 por ejemplo hace 68 99, 69 79, 69, 89, 69 99, 70 71
 				while (c4 <= '9')
 				{
 					print_comb2_aux(c1, c2, c3, c4);
@@ -53,15 +53,6 @@ void	loop_comb2_aux(char c1, char c2, char c3, char c4)
 
 void	ft_print_comb2(void)
 {
-	char	c1;
-	char	c2;
-	char	c3;
-	char	c4;
-
-	loop_comb2_aux(c1, c2, c3, c4);
+	loop_comb2_aux('0', '0', '0', '1');
 }
 
-int main(void) {
-	ft_print_comb2();
-	return 0;
-}
