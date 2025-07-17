@@ -34,10 +34,10 @@ void	loop_comb2_aux(char c1, char c2, char c3, char c4)
 			c3 = c1;
 			while (c3 <= '9')
 			{
-				if (c1 < c3) 
+				if (c1 < c3)
 					c4 = '0';
-				else 
-					c4 = c2 + 1; //falta que vuelva al 0 por ejemplo hace 68 99, 69 79, 69, 89, 69 99, 70 71
+				else
+					c4 = c2 + 1;
 				while (c4 <= '9')
 				{
 					print_comb2_aux(c1, c2, c3, c4);
@@ -55,4 +55,3 @@ void	ft_print_comb2(void)
 {
 	loop_comb2_aux('0', '0', '0', '1');
 }
-
