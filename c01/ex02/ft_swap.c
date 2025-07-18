@@ -6,10 +6,15 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/17 20:32:36 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/17 20:32:52 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/18 00:42:26 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_swap(int *a, int *b) {
-	
+void ft_swap(int *a, int *b)
+{
+	int temp;
+
+    temp = *a;
+    *a = *b;
+    *b = temp;
 }

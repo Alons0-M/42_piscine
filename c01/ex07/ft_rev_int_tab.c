@@ -1,18 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
+/*   ft_rev_int_tab.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/17 20:29:59 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/18 00:42:35 by aarredon         ###   ########.fr       */
+/*   Created: 2025/07/18 09:49:21 by aarredon          #+#    #+#             */
+/*   Updated: 2025/07/18 10:12:40 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_ultimate_ft(int *********nbr)
+void ft_rev_int_tab(int *tab, int size)
 {
-	*********nbr = 42;
+    int i;
+    int end;
+    int temp;
+
+    i = 0;
+    end = size - 1;
+    while (i < end)
+    {
+        temp = tab[i];
+        tab[i] = tab[end];
+        tab[end] = temp;
+        i++;
+        end--;
+    }
 }

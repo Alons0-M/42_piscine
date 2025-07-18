@@ -1,18 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/17 20:29:59 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/18 00:42:35 by aarredon         ###   ########.fr       */
+/*   Created: 2025/07/18 00:44:53 by aarredon          #+#    #+#             */
+/*   Updated: 2025/07/18 00:49:10 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_ultimate_ft(int *********nbr)
+void ft_putstr(char *str)
 {
-	*********nbr = 42;
+    while(*str != '\0')
+    {
+        write(1, str, 1);
+        str++;
+    }
 }

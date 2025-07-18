@@ -1,18 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
+/*   ft_div_mod.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/17 20:29:59 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/18 00:42:35 by aarredon         ###   ########.fr       */
+/*   Created: 2025/07/18 00:40:36 by aarredon          #+#    #+#             */
+/*   Updated: 2025/07/18 00:42:27 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_ultimate_ft(int *********nbr)
+void ft_div_mod(int a, int b, int *div, int *mod)
 {
-	*********nbr = 42;
+    *div = a / b;
+    *mod = a % b;
 }

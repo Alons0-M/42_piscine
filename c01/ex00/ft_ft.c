@@ -6,11 +6,9 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/17 20:17:32 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/17 20:30:20 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/18 10:03:10 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_ft(int *nbr)
 {
