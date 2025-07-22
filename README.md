@@ -7,6 +7,7 @@ git remote -v
 git clone first later git pull
 git checkout "branch"
 git merge "branch"
+git log --oneline --graph --all
 
 ### NO sé usar aún
 git reset --soft HEAD~1  //`HEAD~1` Retrocede 1 commit desde donde estás. `--soft` Los cambios del commit deshecho quedan en staging.

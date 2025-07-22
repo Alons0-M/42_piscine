@@ -6,7 +6,11 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/20 13:39:10 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/20 13:39:11 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/22 14:43:18 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+unsigned int ft_strlcpy(char *dest, char *src, unsigned int size)
+{
+    
+}
