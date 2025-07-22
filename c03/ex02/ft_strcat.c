@@ -1,34 +1,38 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcmp.c                                        :+:      :+:    :+:   */
+/*   ft_strcat.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/22 18:08:47 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/22 18:54:18 by aarredon         ###   ########.fr       */
+/*   Created: 2025/07/22 18:55:42 by aarredon          #+#    #+#             */
+/*   Updated: 2025/07/22 19:11:01 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_strcmp(char *s1, char *s2)
+char *ft_strcat(char *dest, char *src)
 {
-	int i;
-	
-	i = 0;
-	while (s1[i] && s2[i] && s1[i] == s2[i])
+	char *temp;
+
+	temp = dest;
+	while (*dest)
 	{
-		i++;
+		dest++;
 	}
-	return s1[i] - s2[i];
+	while (*src)
+	{
+		*dest = *src;
+		dest++;
+		src++;
+	}
+	*dest = '\0';
+	return temp;
 }
 
 #include <stdio.h>
 int main(void)
 {
-	char s1[] = "Hell";
 	char s2[] = "Hello";
 	char s3[] = "Hellb";
-	printf("%d \n", ft_strcmp(s1, s2));
-	printf("%d \n", ft_strcmp(s3, s2));
-	printf("%d \n", ft_strcmp(s2, s3));
+	printf("%s \n", ft_strcat(s3, s2));
 }
