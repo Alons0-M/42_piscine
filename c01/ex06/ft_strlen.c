@@ -6,17 +6,18 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 00:49:50 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/18 09:48:23 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/22 16:42:44 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
-    int i;
+	int	i;
 
-    while(str[i] != '\0')
-    {
-        i++;
-    }
-    return i;
+	i = 0;
+	while (str[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
 }

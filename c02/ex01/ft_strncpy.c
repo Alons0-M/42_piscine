@@ -6,7 +6,7 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 12:11:38 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/22 12:58:08 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/22 17:48:29 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,11 @@
 
 char *ft_strncpy(char *dest, char *src, unsigned int n)
 {
-    char *start_dest;
     unsigned int i;
 
     i = 0;
     if (!dest || !src)
         return NULL;
-    start_dest = dest;
-    //while((*dest++ = *src++) != '\0');
     while(src[i] != '\0' && i < n)
     {
         dest[i] = src[i];
@@ -32,8 +29,7 @@ char *ft_strncpy(char *dest, char *src, unsigned int n)
         dest[i] = '\0';
         i++;
     }
-    dest[i] = '\0';
-    return start_dest;        
+    return dest;        
 }
 
 #include <stdio.h>

@@ -6,17 +6,17 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 00:44:53 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/18 00:49:10 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/22 16:40:34 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_putstr(char *str)
+void	ft_putstr(char *str)
 {
-    while(*str != '\0')
-    {
-        write(1, str, 1);
-        str++;
-    }
+	while (*str != '\0')
+	{
+		write(1, str, 1);
+		str++;
+	}
 }

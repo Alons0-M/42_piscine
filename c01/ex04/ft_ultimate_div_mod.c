@@ -6,15 +6,15 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 00:42:07 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/18 00:44:00 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/22 16:40:24 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_ultimate_div_mod(int *a, int *b)
+void	ft_ultimate_div_mod(int *a, int *b)
 {
-    int temp;
+	int	temp;
 
-    temp = *a / *b;
-    *b = *a % *b;
-    *a = temp;
+	temp = *a / *b;
+	*b = *a % *b;
+	*a = temp;
 }

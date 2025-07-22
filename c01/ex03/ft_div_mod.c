@@ -6,12 +6,12 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 00:40:36 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/18 00:42:27 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/22 16:40:16 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_div_mod(int a, int b, int *div, int *mod)
+void	ft_div_mod(int a, int b, int *div, int *mod)
 {
-    *div = a / b;
-    *mod = a % b;
+	*div = a / b;
+	*mod = a % b;
 }
