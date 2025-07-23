@@ -6,14 +6,14 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/22 19:11:44 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/22 19:14:27 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/23 11:57:14 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char *ft_strncat(char *dest, char *src, unsigned int nb)
 {
 	char *temp;
-	int i;
+	unsigned int i;
 
 	temp = dest;
 	while (*dest)
