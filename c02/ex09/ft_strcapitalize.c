@@ -6,7 +6,7 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/20 12:50:10 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/20 13:32:50 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/25 12:55:26 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,10 +43,10 @@ char	*ft_strcapitalize(char *str)
 	return (str);
 }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int	main(void)
-{
-	char str[] = "salut, coMMent tu vas ? 42mots quaRAnte-deux; cinquante+et+un";
-	printf("%s \n", ft_strcapitalize(str));
-}
+// int	main(void)
+// {
+// 	char str[] = "salut, coMMent tu vas ? 42mots quaRAnte-deux; cinquante+et+un";
+// 	printf("%s \n", ft_strcapitalize(str));
+// }

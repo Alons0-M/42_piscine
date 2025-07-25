@@ -6,7 +6,7 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/18 12:11:38 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/22 17:48:29 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/25 13:02:57 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,41 +32,41 @@ char *ft_strncpy(char *dest, char *src, unsigned int n)
     return dest;        
 }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main(void)
-{
-    char src[] = "Hello";
-    char dest[10];
-    unsigned int n = 8;
+// int main(void)
+// {
+//     char src[] = "Hello";
+//     char dest[10];
+//     unsigned int n = 8;
     
-    // Caso normal
-    printf("Test 1:\n");
-    printf("Antes: src = \"%s\", dest = \"%s\"\n", src, dest);
-    ft_strncpy(dest, src, n);
-    printf("Después: src = \"%s\", dest = \"%s\"\n", src, dest);
+//     // Caso normal
+//     printf("Test 1:\n");
+//     printf("src = \"%s\", dest = \"%s\"\n", src, dest);
+//     ft_strncpy(dest, src, n);
+//     printf("src = \"%s\", dest = \"%s\"\n", src, dest);
     
-    // Caso con n mayor que la longitud de src
-    char src2[] = "World";
-    char dest2[10] = "XXXXXXXXX";
-    printf("\nTest 2:\n");
-    printf("Antes: src = \"%s\", dest = \"%s\"\n", src2, dest2);
-    ft_strncpy(dest2, src2, n);
-    printf("Después: src = \"%s\", dest = \"%s\"\n", src2, dest2);
+//     // Caso con n mayor que la longitud de src
+//     char src2[] = "World";
+//     char dest2[10] = "XXXXXXXXX";
+//     printf("\nTest 2:\n");
+//     printf("src = \"%s\", dest = \"%s\"\n", src2, dest2);
+//     ft_strncpy(dest2, src2, n);
+//     printf("src = \"%s\", dest = \"%s\"\n", src2, dest2);
     
-    // Caso con n menor que la longitud de src
-    char src3[] = "Programming";
-    char dest3[10] = "XXXXXXXXX";
-    unsigned int n3 = 5;
-    printf("\nTest 3:\n");
-    printf("Antes: src = \"%s\", dest = \"%s\"\n", src3, dest3);
-    ft_strncpy(dest3, src3, n3);
-    printf("Después: src = \"%s\", dest = \"%s\"\n", src3, dest3);
+//     // Caso con n menor que la longitud de src
+//     char src3[] = "Programming";
+//     char dest3[10] = "XXXXXXXXX";
+//     unsigned int n3 = 5;
+//     printf("\nTest 3:\n");
+//     printf("src = \"%s\", dest = \"%s\"\n", src3, dest3);
+//     ft_strncpy(dest3, src3, n3);
+//     printf("src = \"%s\", dest = \"%s\"\n", src3, dest3);
     
-    // Caso con punteros nulos
-    printf("\nTest 4:\n");
-    char *result = ft_strncpy(NULL, src, n);
-    printf("Resultado con dest NULL: %s\n", result ? "OK" : "NULL");
+//     // Caso con punteros nulos
+//     printf("\nTest 4:\n");
+//     char *result = ft_strncpy(NULL, src, n);
+//     printf("NULL: %s\n", result ? "OK" : "NULL");
     
-    return 0;
-}
+//     return 0;
+// }
