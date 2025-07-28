@@ -1,23 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_iterative_factorial.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/18 00:49:50 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/28 19:41:20 by aarredon         ###   ########.fr       */
+/*   Created: 2025/07/28 19:45:12 by aarredon          #+#    #+#             */
+/*   Updated: 2025/07/28 20:44:26 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
+int	ft_iterative_factorial(int nb)
 {
-	int	i;
+	int	sol;
 
-	i = 0;
-	while (str[i] != '\0')
+	sol = 0;
+	if (nb > 0)
 	{
-		i++;
+		sol = nb;
+		while (nb - 1 > 0)
+		{
+			sol *= (nb - 1);
+			nb--;
+		}
 	}
-	return (i);
+	return (sol);
 }
+
+//#include <stdio.h>
+//
+// int main() {
+//    printf("%d", ft_iterative_factorial(5));
+//    return (0);
+//}
