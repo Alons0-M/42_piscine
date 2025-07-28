@@ -6,13 +6,13 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/20 12:45:30 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/20 12:46:25 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/28 18:40:06 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strlowcase(char *str)
 {
-	int		i;
+	int	i;
 
 	i = 0;
 	while (str[i] != '\0')

@@ -6,7 +6,7 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/20 12:50:10 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/25 12:55:26 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/28 18:41:04 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,7 @@ char	*ft_strcapitalize(char *str)
 
 // int	main(void)
 // {
-// 	char str[] = "salut, coMMent tu vas ? 42mots quaRAnte-deux; cinquante+et+un";
+// 	char str[] = "salut,coMMent tu vas ? 42mots
+//				quaRAnte-deux; cinquante+et+un";
 // 	printf("%s \n", ft_strcapitalize(str));
 // }
