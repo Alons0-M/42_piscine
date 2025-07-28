@@ -6,7 +6,7 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/25 10:17:23 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/25 11:47:15 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/26 23:17:45 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,8 @@ void ft_putstr_non_printable(char *str)
     }
 }
 
-int main() {
-    char str[] = "Hola\nmundo\t\a";
-    ft_putstr_non_printable(str);
-    return 0;
-}
+// int main() {
+//     char str[] = "Hola\nmundo\t\a";
+//     ft_putstr_non_printable(str);
+//     return 0;
+// } 
