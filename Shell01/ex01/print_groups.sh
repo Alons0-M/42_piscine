@@ -1,1 +1,2 @@
-id -nG | tr ' ', ',' | tr -d '\n' //usar -n?
+#!/bin/bash
+id -nG | tr ' ', ',' | tr -d '\n'
