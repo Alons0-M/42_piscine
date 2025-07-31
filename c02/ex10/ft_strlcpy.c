@@ -6,7 +6,7 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/20 13:39:10 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/28 18:41:13 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/31 20:52:04 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,13 +28,16 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 
 	i = 0;
 	if (!dest || !src)
-		return (ft_strlen(src));
-	while (src[i] != '\0' && i < size - 1)
+		return 0;
+	if (size != 0)
 	{
-		dest[i] = src[i];
-		i++;
+		while (src[i] != '\0' && i < size - 1)
+		{
+			dest[i] = src[i];
+			i++;
+		}
+		dest[i] = '\0';
 	}
-	dest[i] = '\0';
 	return (ft_strlen(src));
 }
 
