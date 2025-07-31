@@ -1,34 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_sqrt.c                                          :+:      :+:    :+:   */
+/*   ft_ten_queens_puzzle.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/29 20:53:46 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/31 12:13:56 by aarredon         ###   ########.fr       */
+/*   Created: 2025/07/31 12:11:23 by aarredon          #+#    #+#             */
+/*   Updated: 2025/07/31 12:12:42 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_sqrt(int nb)
+int ft_ten_queens_puzzle(void)
 {
-	int	i;
-
-	i = 1;
-	while (i * i < nb)
-	{
-		i++;
-	}
-	if (i * i == nb)
-		return (i);
-	else
-		return (0);
+	
 }
 
-//#include <stdio.h>
-//
-// int	main(void)
-//{
-//	printf("%d", ft_sqrt(25));
-//	return (0);
-//}
+int	main(void)
+{
+	
+	return 0;
+}

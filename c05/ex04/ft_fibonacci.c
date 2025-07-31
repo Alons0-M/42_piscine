@@ -6,7 +6,7 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/29 20:42:56 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/29 20:56:21 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/07/31 12:13:46 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int	ft_fibonacci(int index)
 
 //#include <stdio.h>
 //
-//int	main(void)
+// int	main(void)
 //{
 //	printf("%d", ft_fibonacci(6));
 //	return (0);
