@@ -6,7 +6,7 @@
 /*   By: aarredon <aarredon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/31 13:14:54 by aarredon          #+#    #+#             */
-/*   Updated: 2025/07/31 13:25:52 by aarredon         ###   ########.fr       */
+/*   Updated: 2025/08/01 02:11:25 by aarredon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,11 +31,13 @@ char *ft_strdup(char *src)
 	char *dst;
 	int i;
 	
-	if (!src)
-		return (NULL);
+	//if (!src)
+	//	return (NULL); //not needed with check of dst?
 	i = 0;
 	len = ft_strlen(src);
 	dst = (char *)malloc((len+1) * sizeof(char));
+	if (dst == NULL)
+		return (0);
 	while(src[i])
 	{
 		dst[i] = src[i];
